@@ -2,33 +2,70 @@
 <html lang="pl">
 <head>
 <link rel="stylesheet" href="fattycarp.css" type="text/css" />
-<link rel="Stylesheet" type="text/css" href="news.css" />
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
 <script type="text/javascript" charset="iso-8859-2" src="news.js"></script>
 	<meta charset="utf-8" />
+	
 	<title> FattyCarp</title>
 
 <style>
-</style>	
-<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-<link rel="stylesheet" href="dist/datepickk.min.css">
-<script src="dist/datepickk.min.js"></script>
+</style>	 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script>
+$(document).ready(function(){
 
+	$('.topMenu').click(function(){
+   		$('#menu').slideToggle('slow');
+	});
+});
+</script> 
+<script>
+$(document).ready(function(){
 
+	$('#photoTeam').click(function(){
+   		$('.photoTeamTextFrame').toggle();
+	});
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+	$('#photoTeam2').click(function(){
+   		$('.photoTeamTextFrame').toggle();
+	});
+});
+</script>
 
 </head>
 
 <body>
-
 <div class="topMenu">
 <img src="menubutton.png" style="width:12%;display:block;float:right;margin-right:1%;margin-top:3px;">
+<div id="menu">
+<ul class="menuFrame">
+  <a href="#HomeScroll"> <li>Home</li></a>
+  <a href="#photoTeam"> <li>Nasz Team</li></a>
+  <a href="#RelacjeScroll"> <li>Relacje</li></a>
+  <a href="#RelacjeScroll"> <li>Kontakt</li></a>
+  <li><div class="colorFacebook">Facebook</div></li>
+  <li><div class="colorYoutube">YouTube</div></li>
+</ul>
 </div>
-<img src="logomark.png" style="width:100%;display:block;margin-left:auto;margin-right: auto;margin-top:5%;">
-
+</div>
+	<div id="HomeScroll">
+</div>
+<img src="logomark.png" alt="logos" style="width:100%;display:block;margin-left:auto;margin-right: auto;margin-top:13%;">
 <div class="news1">
 	<div class="articleTittle">
 		Drużyna wybrała się dzisiaj na Łowisko Borowy staw.
 	</div>
-	
+</div>
+
+<div class="news2">
+	<div class="articleTittle">
+		Drużyna wybrała się dzisiaj na Łowisko Borowy staw.
+	</div>
 </div>
 
 <div class="title">
@@ -49,8 +86,11 @@ Najlepszy gracz w World of Warcraft!
 </div></div>
 </div>
 
+
 <div class="title">
+<div id="RelacjeScroll">
 <div class="titleText">Relacje</div>
+</div>
 </div>
 
 <div class="cardFrame">
@@ -58,6 +98,14 @@ Najlepszy gracz w World of Warcraft!
 </div>
 <div class="cardFrame">
 <img src="lindis.jpg" style="width:98%;height:98%;display:block;background-size: cover;margin:1%;border-radius: 25px;">
+</div>
+<div class="title">
+<div id="RelacjeScroll">
+<div class="titleText">Kontakt</div>
+</div>
+</div>
+
+<div class="kontaktFrame">
 </div>
 </body>
 </html>
