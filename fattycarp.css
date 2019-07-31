@@ -69,8 +69,7 @@ margin-bottom:3%;
 .titleText
 {
 font-size:80px;
-font-family: 'Russo One', sans-serif;
-padding:1%;
+font-family: 'Cantarell', sans-serif;
 margin-left:1%;
 font-weight: bold;
 text-align: center;
@@ -80,7 +79,7 @@ text-align: center;
 	font-size:45px;
 	color:white;
 	text-align:center;
-	font-family: "Verdana", Verdana, bold;
+	font-family: 'Staatliches', cursive;
 
 }
 
@@ -157,7 +156,7 @@ text-align: center;
 {
 	font-size:55px;
 	color:white;
-	font-family: 'Righteous', cursive;
+	font-family: 'Judson', serif;
 	text-align:center;
 	padding:1%;
 }
@@ -198,16 +197,37 @@ height:100%;
 {
 width:100%;
 height:35%;
-background-color:rgba(233, 237, 247, .7);	
+background-color:rgba(28, 28, 27, .7);	
 float:left;
 margin-top:1%;
 margin-bottom:2%;
-margin-left:auto;
-margin-right:auto;
-border-radius: 25px;
+color:white;
+font-size:70px;
+text-align: center;
+font-family: 'Cantarell', sans-serif;
 
 }
-
+.kontaktOption
+{
+	width:100%;
+height:20%;
+background-color:rgba(28, 28, 27);	
+float:left;
+color:white;
+font-size:50px;
+text-align: justify;
+font-family: 'Cantarell', sans-serif;
+}
+#kontaktOptionIMG
+{
+	width:100%;
+height:30%;
+background-color:rgba(28, 28, 27);	
+float:left;
+color:white;
+font-size:50px;
+text-align: justify;
+}
 #datalist
 {
 	width:100%;
