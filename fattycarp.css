@@ -29,14 +29,14 @@ top: 1px;
 #menu
 {
 	width:100%;
-	height:500px;
+	height:250px;
 	float:left;
 	display:none; 
 	 background-color: rgba(26,26,26, 0.9);
 }
 ul.menuFrame{
 	color:white;
-	font-size:60px;
+	font-size:2em;
 	font-family: 'Orbitron', sans-serif;
 	padding:1%;
 	text-align: center;
@@ -65,7 +65,7 @@ margin-bottom:3%;
 }
 .titleText
 {
-font-size:6em;
+font-size:2em;
 font-family: 'Cantarell', sans-serif;
 margin-left:1%;
 font-weight: bold;
@@ -73,7 +73,7 @@ text-align: center;
 }
 .articleTittle
 {
-	font-size:3em;
+	font-size:1em;
 	color:white;
 	text-align:center;
 	font-family: 'Staatliches', cursive;
@@ -152,7 +152,7 @@ text-align: center;
 }
 .photoTeamText
 {
-	font-size:2em;
+	font-size:1em;
 	color:white;
 	font-family: 'Judson', serif;
 	text-align:center;
@@ -200,7 +200,7 @@ float:left;
 margin-top:1%;
 margin-bottom:2%;
 color:white;
-font-size:2em;
+font-size:1em;
 text-align: center;
 font-family: 'Cantarell', sans-serif;
 
@@ -212,7 +212,7 @@ height:20%;
 background-color:rgba(28, 28, 27);	
 float:left;
 color:white;
-font-size:2em;
+font-size:1em;
 text-align: justify;
 font-family: 'Cantarell', sans-serif;
 }
@@ -246,23 +246,26 @@ text-align: justify;
   
 	}
 }	
-@media only screen and (min-device-width: 410px)
+@media only screen and (min-device-width: 1200px)
 {
 .kontaktOption
 	{
 		font-size:1.5em;
 	}
 }
-@media only screen and (min-device-width: 460px)
+@media only screen and (min-device-width: 1200px)
 {
 .titleText
 	{
 		font-size:3em;
 	}
 }
-@media only screen and (min-device-width: 460px)
+@media only screen and (min-device-width: 1200px)
 {
-	
+	.articleTittle
+	{
+		font-size:1.6em;
+	}
 }
 
 
