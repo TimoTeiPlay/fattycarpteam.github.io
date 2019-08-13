@@ -40,8 +40,8 @@ $(document).ready(function(){
 
 </head>
 <body>
-
-<ul>
+<div class="desktopWrapper">
+<ul class="desktop">
   <li><a href="#HomeScroll">Home</a></li>
   <li><a href="#photoTeam">Nasz Team</a></li>
   <li><a href="#RelacjeScroll">Relacje</a></li>
@@ -49,6 +49,7 @@ $(document).ready(function(){
   <li><a href="https://www.facebook.com/FattyCarpTeam/"><div class="colorFacebook">Facebook</div></a></li> 
   <li><a href="https://www.youtube.com/channel/UCDS2n-efSwLXVFQUa5e4TXA"><div class="colorYoutube">YouTube</div></a></li>
 </ul>
+</div>
 <div class="menuIMG">
 <div class="topMenu">
 <img src="menubutton.png" style="max-width:12%;display:block;float:right;margin-right:1%;margin-top:3px;height:90%;cursor: pointer;"></div>
@@ -110,20 +111,26 @@ Najlepszy gracz w World of Warcraft!
 </div>
 </div>
 
-
+<div class="desktopWrapperHide">
 <select  style="width:100%; height:3%; font-size:1em; float:left;margin:auto;">
   <option value="start">Wybierz Relacje</option>
   <option value="one">relacja pierwsza</option>
   <option value="two">relacja druga</option>
   <option value="three">relacja trzecia</option>
 </select>
-
+</div>
 
 <div class="cardFrame">
-<img src="rusiec.jpg" style="width:98%;height:98%;display:block;background-size: cover;margin:1%;border-radius: 25px;">
+<img class="cardFrameIMG" src="rusiec.jpg" />
+<div class="text">
+Rusiec
+</div>
 </div>
 <div class="cardFrame">
-<img src="lindis.jpg" style="width:98%;height:98%;display:block;background-size: cover;margin:1%;border-radius: 25px;">
+<img class="cardFrameIMG" src="lindis.jpg" />
+<div class="text">
+Lindis
+</div>
 </div>
 <div class="title">
 <div id="RelacjeScroll">

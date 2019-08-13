@@ -41,6 +41,8 @@ margin-top:3%;
 	float:left;
 	display:none; 
 	 background-color: rgba(26,26,26, 0.9);
+	 position: fixed;
+	 top: 7%;
 }
 ul.menuFrame{
 	color:white;
@@ -178,6 +180,23 @@ text-align: center;
 	border-radius: 25px;
 	margin:1%;
 }
+.cardFrameIMG
+{
+	width:98%;
+	height:98%;
+	display:block;
+	background-size: cover;
+	margin:1%;border-radius: 25px;
+}
+.text
+{
+	height:5%;
+	width:100%;
+	text-align:center;
+	font-size:1em;
+	color:white;
+	display:none;
+}
 .ColorYouTube
 {
 	color:red;
@@ -237,30 +256,11 @@ float:left;
 }
 
 
-/* Desktop Menu */
-ul	 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, .7);
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-li {
-  float: left;
+.desktopWrapper
+{
+	display:none;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 
 
 
@@ -271,7 +271,7 @@ li a {
 /* Media querries */
 
 
-@media only screen and (min-device-width: 410px)
+@media only screen and (min-device-width: 738px)
 {
 .container
 	{
@@ -328,13 +328,44 @@ li a {
 }
 #menuFrame
 {
+	position: fixed;
 	display:inline;
 }
 .desktopWrapper
 {
 	display:block;
 }
+.desktopWrapperHide
+{
+	display:none;
+}
+
+/* Desktop Menu */
+ul.desktop	 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 }	
+
 @media only screen and (min-device-width: 1200px)
 {
 .kontaktOption
@@ -355,7 +386,14 @@ li a {
 .cardFrame
 {
 	width:22%;
-	height:13%;
+	height:14%;
+	text-align:center;
+	color:black;
+	font-size:30px;
+}
+.text
+{
+	display:block;
 }
 }
 @media only screen and (min-device-width: 1200px)
@@ -376,6 +414,25 @@ li a {
 		font-size:1.6em;
 	}
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+{ 
+.container
+	{
+		
+	width:390px;
+	height:100%;
+	padding-right: 10px;
+	padding-left:  10px;
+	padding-top:10px;
+	margin-top:5%;
+	margin-right: auto;
+	margin-left:  auto;
+	align:center;
+	}
 
+
+}
 
 
