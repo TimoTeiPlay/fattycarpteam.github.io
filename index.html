@@ -15,7 +15,7 @@
 <script>
 $(document).ready(function(){
 
-	$('.topMenu').click(function(){
+	$('.menuIMG').click(function(){
    		$('#menu').slideToggle('slow');
 	});
 });
@@ -40,8 +40,18 @@ $(document).ready(function(){
 
 </head>
 <body>
+
+<ul>
+  <li><a href="#HomeScroll">Home</a></li>
+  <li><a href="#photoTeam">Nasz Team</a></li>
+  <li><a href="#RelacjeScroll">Relacje</a></li>
+  <li><a href="#RelacjeScroll">Kontakt</a></li> 
+  <li><a href="https://www.facebook.com/FattyCarpTeam/"><div class="colorFacebook">Facebook</div></a></li> 
+  <li><a href="https://www.youtube.com/channel/UCDS2n-efSwLXVFQUa5e4TXA"><div class="colorYoutube">YouTube</div></a></li>
+</ul>
+<div class="menuIMG">
 <div class="topMenu">
-<img src="menubutton.png" style="max-width:12%;display:block;float:right;margin-right:1%;margin-top:3px;height:90%;cursor: pointer;">
+<img src="menubutton.png" style="max-width:12%;display:block;float:right;margin-right:1%;margin-top:3px;height:90%;cursor: pointer;"></div>
 <div id="menu">
 <ul class="menuFrame">
   <a href="#HomeScroll"> <li>Home</li></a>
@@ -56,7 +66,7 @@ $(document).ready(function(){
 <div class="container">
 	<div id="HomeScroll">
 </div>
-<img src="logomark.png" alt="logos" style="width:100%;display:block;margin-left:auto;margin-right: auto;margin-top:13%;">
+<div class="mainIMG"><img src="logomark.png" style="width:80%;height:45%;display:block;margin-left:auto;margin-right: auto;"></div>
 <div class="news1">
 	<div class="articleTittle">
 		Drużyna wybrała się dzisiaj na Łowisko Borowy staw.
@@ -64,6 +74,12 @@ $(document).ready(function(){
 </div>
 
 <div class="news2">
+	<div class="articleTittle">
+		Drużyna wybrała się dzisiaj na Łowisko Borowy staw.
+	</div>
+</div>
+
+<div class="news3">
 	<div class="articleTittle">
 		Drużyna wybrała się dzisiaj na Łowisko Borowy staw.
 	</div>
