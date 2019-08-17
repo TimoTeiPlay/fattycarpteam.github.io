@@ -32,7 +32,7 @@ top: 1px;
 }
 .mainIMG
 {
-margin-top:3%;
+margin-top:11%;
 }
 #menu
 {
@@ -135,24 +135,28 @@ text-align: center;
 }
 #photoTeam
 {
-	background-image:url("justynka.jpg");
+	background-image:url("daniel.jpg");
 	background-size: cover;
 	width:100%;
 	height:100%;
 	margin-bottom:3%;
 	float:left;
 	cursor: pointer;
+	border-style: solid;
+	border-color:white;
 }
 #photoTeam2
 {
 	
-	background-image:url("daniel.jpg");
+	background-image:url("justynka.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width:100%;
 	height:100%;
 	cursor: pointer;
 	float:left;
+	border-style: solid;
+	border-color:white;
 }
 .photoTeamTextFrame
 {
@@ -262,8 +266,35 @@ float:left;
 	display:none;
 }
 
-
-
+#textPhotoTeam
+{
+  display:block;
+  font-size: 2em;
+  margin-top: 70%;
+  padding: 5px;
+  color:white;
+  text-align:center;
+  opacity:0;
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+}
+#photoTeam:hover #textPhotoTeam {
+  display:block;
+  zoom:1;
+  opacity:1;
+  filter: alpha(opacity=50);
+    opacity: 1;
+}
+#photoTeam2:hover #textPhotoTeam {
+  display:block;
+  zoom:1;
+  opacity:1;
+  filter: alpha(opacity=50);
+    opacity: 1;
+}
 
 
 
@@ -324,7 +355,7 @@ float:left;
 {
 	height:45%;
 	width:45%;
-	margin-left:10%;
+	margin-left:9%;
 }
 #menuFrame
 {
@@ -395,6 +426,7 @@ li a {
 {
 	display:block;
 }
+
 }
 @media only screen and (min-device-width: 1200px)
 {
@@ -406,6 +438,10 @@ li a {
 	{
 		height:5%;
 	}	
+	.mainIMG
+{
+margin-top:none;
+}
 }
 @media only screen and (min-device-width: 1200px)
 {
@@ -434,5 +470,4 @@ and (max-device-width : 736px)
 
 
 }
-
 
