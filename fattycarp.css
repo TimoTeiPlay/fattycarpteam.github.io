@@ -92,7 +92,7 @@ text-align: center;
 
 .news1
 {
-	background-image:url("news.jpg");
+	
 	border-radius: 25px;
 	background-size: cover;
 	width:96%;
@@ -105,28 +105,29 @@ text-align: center;
 }
 .news2
 {
-	background-image:url("news.jpg");
+	
 	border-radius: 25px;
 	background-size: cover;
 	width:96%;
 	height:30%;
-	margin-top:3%;
+	margin-top:80%;
 	float:left;
 	display:inline;
 	padding:2%;
+	margin-bottom:80%
 
 }
 .news3
 {
-	background-image:url("news.jpg");
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 25px;
 	background-size: cover;
 	width:96%;
-	height:30%;
+	height:80%;
 	margin-top:3%;
-	float:left;
+	float:center-left;
 	display:inline;
 	padding:2%;
 	align:center;
@@ -161,7 +162,7 @@ text-align: center;
 .photoTeamTextFrame
 {
 	width:100%;
-	height:50%;
+	height:45%;
 	background-color:rgba(0, 0, 0, .7);
 	margin-top:90%;
 	display:none;
@@ -197,9 +198,11 @@ text-align: center;
 	height:5%;
 	width:100%;
 	text-align:center;
-	font-size:1em;
+	font-size:0.8em;
+	font-family:Judson;
 	color:white;
 	display:none;
+	margin-bottom:5%;
 }
 .ColorYouTube
 {
@@ -273,6 +276,7 @@ float:left;
   margin-top: 70%;
   padding: 5px;
   color:white;
+  font-family: 'Cantarell', sans-serif;
   text-align:center;
   opacity:0;
   -webkit-transition: opacity 1s ease-in-out;
@@ -280,22 +284,82 @@ float:left;
         -ms-transition: opacity 1s ease-in-out;
          -o-transition: opacity 1s ease-in-out;
             transition: opacity 1s ease-in-out;
+			color:rgba(255, 255, 255, .4);
+			font-weight: bold;
 }
 #photoTeam:hover #textPhotoTeam {
   display:block;
   zoom:1;
-  opacity:1;
+  opacity: 1;
   filter: alpha(opacity=50);
     opacity: 1;
+	color: white; 
+            -webkit-text-stroke-width: 2px; 
+            -webkit-text-stroke-color: black;
+			background-color:rgba(255, 255, 255, .4);
 }
 #photoTeam2:hover #textPhotoTeam {
   display:block;
   zoom:1;
-  opacity:1;
+  opacity: 1;
   filter: alpha(opacity=50);
-    opacity: 1;
+    opacity:  1;
+	color: white; 
+            -webkit-text-stroke-width: 2px; 
+            -webkit-text-stroke-color: black;
+			background-color:rgba(255, 255, 255, .4);
 }
 
+.ContentText{
+width:90%;
+height:50%;
+background-color:rgba(28, 28, 27);
+padding:5%;
+font-size:1.4em;
+color:white;
+text-align: justify;
+line-height: 1em;
+margin-top:10%;
+}
+.ContentTextMiddle{
+width:90%;
+height:100%;
+padding:5%;
+font-size:1em;
+color:white;
+text-align: justify;
+line-height: 1em;
+}
+.counterText{
+font-size:0.7em;
+text-align: left;	
+color:white;
+margin-left:80%;
+}
+.dateText{
+font-size:0.7em;	
+color:white;
+float:left;
+text-align: right;
+}
+
+
+.ArticleTittleFrame{
+	width:90%;
+	height:2%;
+	background-color:white;
+	margin-top:1%;
+	font-size:1em;
+	color:black;
+	padding:10px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 8px;
+}
+.ArticleTittleFrame:hover{
+	background-color:rgba(28, 28, 27);
+	color: white;
+}
 
 
 
@@ -320,20 +384,26 @@ float:left;
 	
 .news1
 	{
-		width:41%;
+		width:36%;
 		border-radius: 25px 25px;
-		height:15%;
+		height:34%;
+		margin-top:3%;
+		
 	}
 .news2
 	{
-		width:41%;
-		margin-left:10%;
+		width:36%;
+		margin-left:12%;
 		border-radius: 25px 25px;
-		height:15%;
+		height:34%;
 		display:inline;
+		float:right;
+		margin-top:3%;
+		margin-bottom:0;
 	}
 .news3
 	{
+		height:32%;
 		width:full;
 		border-radius: 0px;
 	}
@@ -347,15 +417,16 @@ float:left;
 }
 #photoTeam
 {
-	height:45%;
+	height:40%;
 	width:45%;
 
 }
 #photoTeam2
 {
-	height:45%;
+	height:40%;
 	width:45%;
-	margin-left:9%;
+	margin-left:8%;
+	float:right;
 }
 #menuFrame
 {
@@ -371,6 +442,8 @@ float:left;
 	display:none;
 }
 
+
+
 /* Desktop Menu */
 ul.desktop	 {
   list-style-type: none;
@@ -381,10 +454,12 @@ ul.desktop	 {
   position: fixed;
   top: 0;
   width: 100%;
+  
 }
 
 li {
   float: left;
+  
 }
 
 li a {
@@ -392,8 +467,9 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  font-family: 'Signika', sans-serif;
 }
+
 
 }	
 
@@ -421,10 +497,14 @@ li a {
 	text-align:center;
 	color:black;
 	font-size:30px;
+	margin-top:1em;
 }
 .text
 {
 	display:block;
+}
+iframe{ 
+  height:80%;
 }
 
 }
@@ -442,6 +522,8 @@ li a {
 {
 margin-top:none;
 }
+
+
 }
 @media only screen and (min-device-width: 1200px)
 {
